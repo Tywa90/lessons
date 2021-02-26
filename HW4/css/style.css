@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+}
+.map {
+    background-image: url(../img/map.jpg);
+    height: 752px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.map__continent {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+.map__continent--name {
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+.map__continent--north-america {
+    background-color: rgba(51, 102, 153, 0.7);
+}
+.map__continent--europe {
+    background-color: rgba(133, 51, 153, 0.7);
+}
+.map__continent--asia {
+    background-color: rgba(148, 32, 32, 0.7);
+}
+.map__continent--south-america {
+    background-color: rgba(51, 102, 153, 0.7);
+    
+}
+.map__continent--africa {
+    background-color: rgba(198, 245, 68, 0.7);
+}
+.map__continent--australia {
+    background-color: rgba(216, 120, 11, 0.7);
+}
+.country {
+    background-color: rgba(33, 65, 97, 0.7);
+    width: 326px;
+}
+.country__info {
+    display: flex;
+    align-items: center;
+}
+.country__info--name {
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+.country__cities {
+    padding: 30px 0 20px 15px;
+    font-size: 20px;
+}
+.cities-list {
+    padding: 10px 0 0 15px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+}
+.cities-list__item {
+    display: flex;
+    align-items: center;
+    padding-bottom: 15px;
+}
+.cities-list__name {
+    padding-left: 10px;
+}
+
