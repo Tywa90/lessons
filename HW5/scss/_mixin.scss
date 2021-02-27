@@ -1,0 +1,8 @@
+@mixin flexWrap () {
+    display: flex;
+    flex-wrap: wrap;
+}
+@mixin flexAi () {
+    display: flex;
+    align-items: center;
+}
